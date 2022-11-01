@@ -26,7 +26,7 @@ export default function App() {
       <Button style = {styles.ButtonStyle} title='Clear' onPress={ClearHandler}></Button>
       </View>
       <View style ={styles.container1}>
-      <Button title='LinkedIn Profile' onPress={()=> Linking.openURL("https://www.linkedin.com/in/hassan--abdullah/")}></Button>
+      <Button title='LinkedIn' onPress={()=> Linking.openURL("https://www.linkedin.com/in/hassan--abdullah/")}></Button>
       </View>
       <StatusBar style="auto" />
     </View>
